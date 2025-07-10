@@ -9,7 +9,7 @@ router.get('/me/loan', auth, customerController.getMyLoanDetails);
 router.get('/all-users-loan-status', auth, customerController.getAllUsersWithLoanStatus);
 router.get('/:accountNumber', auth, customerController.getCustomerByAccountNumber);
 router.get('/all-users-loan-status', auth, customerController.getAllUsersWithLoanStatus);
-
+router.put('/:accountNumber/status', auth, customerController.updateLoanStatus);
 
 
 
