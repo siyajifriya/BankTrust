@@ -1,0 +1,90 @@
+
+.pl-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  color: #1f1f1f;
+}
+
+/* Banner Section */
+.pl-banner {
+  display: flex;
+  background-color: #d5f1ff;
+  border-radius: 8px;
+  padding: 20px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.pl-image img {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+}
+.pl-info {
+  margin-left: 30px;
+}
+.pl-info h1 {
+  margin: 0;
+  font-size: 28px;
+}
+.pl-info p {
+  margin: 5px 0 15px;
+}
+.pl-btn {
+  background-color: #102c57;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Feature Icons */
+.pl-features {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+.pl-feature-box {
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+  border-radius: 6px;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Benefit Highlights */
+.pl-benefits {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.pl-benefits h3 {
+  color: #0077cc;
+  margin: 0;
+}
+
+/* Calculator */
+.pl-calculator {
+  background-color: #102c57;
+  color: white;
+  padding: 30px 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+.pl-calc-grid {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+.pl-label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #bbb;
+}
+.apply-btn {
+  background-color: white;
+  color: #102c57;
+  font-weight: bold;
+}

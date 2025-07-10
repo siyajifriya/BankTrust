@@ -1,0 +1,213 @@
+/* General container */
+.home-container {
+  font-family: 'Segoe UI', sans-serif;
+  color: #1e1e1e;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 40px;
+  background-color: #0c2d63;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #f0c14b;
+}
+
+.nav-button {
+  background-color: #f0c14b;
+  color: #0c2d63;
+  border: none;
+  padding: 8px 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #ddb347;
+}
+
+/* Modal Form */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 30px;
+  width: 350px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.error-text {
+  color: red;
+  font-size: 12px;
+  text-align: left;
+  margin: 0 0 10px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.form-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #0c2d63;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-button.cancel {
+  background-color: #999;
+}
+
+.form-switch-text {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.form-switch-link {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  background-color: #599dff;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-text span {
+  color: #f0c14b;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  background-color: #0c2d63;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: #072048;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* Services Section */
+/* Services Section */
+.services-section {
+  background-color: #eef5ff;
+  padding: 60px 40px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background-color: #ffffff;
+  padding: 30px 20px;
+  border-radius: 80px;
+  width: 280px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.service-card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #0c2d63;
+}
+
+.service-card p {
+  font-size: 14px;
+  color: #666;
+}

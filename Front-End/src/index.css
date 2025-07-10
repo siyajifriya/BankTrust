@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    list-style: none;
+    text-decoration: none;
+
+    font-family: 'forum' ;
+
+    scroll-behavior: smooth;
+   
+}
