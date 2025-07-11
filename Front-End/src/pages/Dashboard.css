@@ -1,4 +1,4 @@
- body {
+ /* body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
   background-color: #f5f7fb;
@@ -140,4 +140,156 @@ th {
   color: red;
   font-weight: bold;
 } 
- 
+  */
+
+/* Wrapper layout */
+.dashboard-wrapper {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f5f7fa;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background-color: #2d3e50;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar a{
+  color: white;
+}
+
+.sidebar h2 {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.sidebar ul li:hover {
+  color: #00bcd4;
+}
+
+/* Main area */
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Header bar */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.logout {
+  text-decoration: none;
+  color: #ff4d4d;
+  font-weight: bold;
+}
+
+/* Profile Section */
+.profile-section {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.profile-section h2 {
+  margin-bottom: 15px;
+}
+
+.profile-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.profile-section li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.profile-section li:last-child {
+  border-bottom: none;
+}
+
+/* Summary Cards */
+.summary-section {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.summary-card {
+  background: #ffffff;
+  padding: 20px;
+  flex: 1;
+  min-width: 180px;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.summary-card h3 {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.summary-card p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+/* Recent Activity */
+.activity-section {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.activity-section h2 {
+  margin-bottom: 15px;
+}
+
+.activity-section ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.activity-section li {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+  font-size: 15px;
+  color: #444;
+}
+
+.activity-section li:last-child {
+  border-bottom: none;
+}

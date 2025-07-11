@@ -1,0 +1,33 @@
+/* Sidebar styles (can go in Sidebar.css or Dashboard.css) */
+.sidebar {
+  width: 220px;
+  background-color: #2d3e50;
+  color: white;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.sidebar h2 {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.sidebar ul li a:hover {
+  color: #00bcd4;
+}

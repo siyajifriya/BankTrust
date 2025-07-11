@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
-
 export const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
+    
+    
+    
     <header className="navbar">
       <Link to='/' style={{color:'white'}}><div className="logo">💰 BankTrust</div></Link>
 
@@ -21,5 +23,7 @@ export const Header = () => {
         ☰
       </button>
     </header>
+    
+    
   );
 };

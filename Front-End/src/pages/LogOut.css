@@ -1,0 +1,25 @@
+.logout-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f5f9;
+  font-family: Arial, sans-serif;
+}
+
+.logout-box {
+  text-align: center;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.logout-box h2 {
+  color: #2d3e50;
+  margin-bottom: 10px;
+}
+
+.logout-box p {
+  color: #555;
+}

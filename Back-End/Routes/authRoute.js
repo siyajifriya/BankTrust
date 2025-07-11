@@ -13,3 +13,6 @@ router.get('/profile', auth, authController.getProfile);
 router.post('/apply-loan', auth, authController.applyLoan);
 
 module.exports = router;
+
+
+
